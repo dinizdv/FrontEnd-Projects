@@ -55,6 +55,12 @@ button {
     width: 100px;
     padding: 5px;
     color: var(--secondary-bg);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+button:hover {
+    background-color: #0064fbc3;
 }
 
 input[type="color"]{
